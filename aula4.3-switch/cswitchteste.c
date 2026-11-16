@@ -1,4 +1,3 @@
-//dias da semana com c, usando switch case
 #include <stdio.h>
 
 int main () {
