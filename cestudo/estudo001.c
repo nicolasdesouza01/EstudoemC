@@ -36,7 +36,7 @@ int main() {
             printf("Saindo do sistema...\n");
         } 
         else {
-            printf("Opcao invalida!\n");
+            printf("\n==== Opcao invalida! Digite apenas números inteiros entre 1-4. ====\n");
             while (getchar() !='\n')
             continue;
         }
