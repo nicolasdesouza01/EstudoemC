@@ -35,15 +35,15 @@ int main () {
 
     printf("\nPrimeira linha automática: \n");
 
-    for (i = 0; i < COL; i ++) {
+    for (i = 0; i < LIN; i ++) {
         printf("%d ", mat[0][i]);
     }
     
 
     printf("\nAgora tudo automático: \n");
 
-    for (i = 0; i<COL; i++) {
-        for (j = 0; j < LIN; j++) {
+    for (i = 0; i<LIN; i++) {
+        for (j = 0; j < COL; j++) {
             printf("%d ", mat[i][j]);
         }
         printf("\n");
