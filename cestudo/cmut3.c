@@ -8,7 +8,7 @@ int main () {
 
     for (i = 0; i < 6; i ++) {
         printf("Digite um número: \n");
-        scanf("%d", &lidos[i])
+        scanf("%d", &lidos[i]);
 
         if (lidos[i] % 3 == 0) {
             mut3[qtd_mut3] = lidos[i];
